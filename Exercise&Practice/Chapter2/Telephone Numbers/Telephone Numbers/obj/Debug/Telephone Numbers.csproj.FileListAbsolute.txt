@@ -1,0 +1,10 @@
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\bin\Debug\Telephone Numbers.exe.config
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\bin\Debug\Telephone Numbers.exe
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\bin\Debug\Telephone Numbers.pdb
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone Numbers.csproj.AssemblyReference.cache
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone_Numbers.telephoneNumbers.resources
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone_Numbers.Properties.Resources.resources
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone Numbers.csproj.GenerateResource.cache
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone Numbers.csproj.CoreCompileInputs.cache
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone Numbers.exe
+Z:\Year3\Exercise&Practice\Chapter2\Telephone Numbers\Telephone Numbers\obj\Debug\Telephone Numbers.pdb

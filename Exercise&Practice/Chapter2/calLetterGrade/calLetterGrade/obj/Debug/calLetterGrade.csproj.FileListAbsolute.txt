@@ -1,0 +1,10 @@
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\bin\Debug\calLetterGrade.exe.config
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\bin\Debug\calLetterGrade.exe
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\bin\Debug\calLetterGrade.pdb
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.csproj.AssemblyReference.cache
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.calculateLetterGrade.resources
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.Properties.Resources.resources
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.csproj.GenerateResource.cache
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.csproj.CoreCompileInputs.cache
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.exe
+Z:\Year3\Exercise&Practice\Chapter2\calLetterGrade\calLetterGrade\obj\Debug\calLetterGrade.pdb

@@ -1,0 +1,10 @@
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\bin\Debug\studentPopulation.exe.config
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\bin\Debug\studentPopulation.exe
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\bin\Debug\studentPopulation.pdb
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.AssemblyReference.cache
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.Form1.resources
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.Properties.Resources.resources
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.GenerateResource.cache
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.CoreCompileInputs.cache
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.exe
+Z:\Year3\Exercise&Practice\Chapter2\studentPopulation\studentPopulation\obj\Debug\studentPopulation.pdb
