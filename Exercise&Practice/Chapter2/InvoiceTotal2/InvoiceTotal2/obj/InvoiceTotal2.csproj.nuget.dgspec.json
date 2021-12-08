@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Year3\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj": {}
+    "Z:\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj": {}
   },
   "projects": {
-    "Z:\\Year3\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj": {
+    "Z:\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Year3\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj",
+        "projectUniqueName": "Z:\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj",
         "projectName": "InvoiceTotal2",
-        "projectPath": "Z:\\Year3\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj",
-        "packagesPath": "C:\\Users\\Daveat\\.nuget\\packages\\",
-        "outputPath": "Z:\\Year3\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\obj\\",
+        "projectPath": "Z:\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj",
+        "packagesPath": "C:\\Users\\corndaveat\\.nuget\\packages\\",
+        "outputPath": "Z:\\Exercise&Practice\\Chapter2\\InvoiceTotal2\\InvoiceTotal2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daveat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\corndaveat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -57,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
