@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "02f42bad-35c7-4dfb-8704-cd40a3d5efa6": {
+      "ProjectGuid": "02f42bad-35c7-4dfb-8704-cd40a3d5efa6",
+      "DisplayName": "calLetterGrade",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

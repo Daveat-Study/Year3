@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace InvoiceTotal2
+namespace InvoiceTotal
 {
     public partial class Invoice_Form : Form
     {
@@ -17,43 +17,9 @@ namespace InvoiceTotal2
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnCalculate_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void total_tBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cal_btn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sub_total_t_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
+            System.Console.WriteLine("Hello world");
 
         }
     }

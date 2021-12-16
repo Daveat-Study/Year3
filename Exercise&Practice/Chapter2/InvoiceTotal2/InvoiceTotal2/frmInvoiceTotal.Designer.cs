@@ -1,5 +1,5 @@
 ﻿
-namespace InvoiceTotal2
+namespace InvoiceTotal
 {
     partial class Invoice_Form
     {
@@ -34,7 +34,6 @@ namespace InvoiceTotal2
             this.dis_percent_t = new System.Windows.Forms.Label();
             this.total_t = new System.Windows.Forms.Label();
             this.dis_amt_t = new System.Windows.Forms.Label();
-            this.btnCalculator = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.txtDiscountPercent = new System.Windows.Forms.TextBox();
             this.txtDiscountAmount = new System.Windows.Forms.TextBox();
@@ -50,7 +49,6 @@ namespace InvoiceTotal2
             this.sub_total_t.TabIndex = 0;
             this.sub_total_t.Text = "&Subtotal";
             this.sub_total_t.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.sub_total_t.Click += new System.EventHandler(this.sub_total_t_Click);
             // 
             // txtSubtotal
             // 
@@ -59,7 +57,6 @@ namespace InvoiceTotal2
             this.txtSubtotal.PlaceholderText = "0.00";
             this.txtSubtotal.Size = new System.Drawing.Size(100, 23);
             this.txtSubtotal.TabIndex = 1;
-            this.txtSubtotal.TextChanged += new System.EventHandler(this.total_tBox_TextChanged);
             // 
             // dis_percent_t
             // 
@@ -91,16 +88,6 @@ namespace InvoiceTotal2
             this.dis_amt_t.Text = "Discount amount:";
             this.dis_amt_t.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btnCalculator
-            // 
-            this.btnCalculator.Location = new System.Drawing.Point(36, 170);
-            this.btnCalculator.Name = "btnCalculator";
-            this.btnCalculator.Size = new System.Drawing.Size(75, 23);
-            this.btnCalculator.TabIndex = 2;
-            this.btnCalculator.Text = "&Calculate";
-            this.btnCalculator.UseVisualStyleBackColor = true;
-            this.btnCalculator.Click += new System.EventHandler(this.cal_btn_Click);
-            // 
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(173, 167);
@@ -109,7 +96,6 @@ namespace InvoiceTotal2
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtDiscountPercent
             // 
@@ -119,7 +105,6 @@ namespace InvoiceTotal2
             this.txtDiscountPercent.Size = new System.Drawing.Size(100, 23);
             this.txtDiscountPercent.TabIndex = 8;
             this.txtDiscountPercent.TabStop = false;
-            this.txtDiscountPercent.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtDiscountAmount
             // 
@@ -129,7 +114,6 @@ namespace InvoiceTotal2
             this.txtDiscountAmount.Size = new System.Drawing.Size(100, 23);
             this.txtDiscountAmount.TabIndex = 9;
             this.txtDiscountAmount.TabStop = false;
-            this.txtDiscountAmount.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtTotal
             // 
@@ -149,15 +133,13 @@ namespace InvoiceTotal2
             this.Controls.Add(this.txtDiscountAmount);
             this.Controls.Add(this.txtDiscountPercent);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.dis_amt_t);
             this.Controls.Add(this.total_t);
             this.Controls.Add(this.dis_percent_t);
             this.Controls.Add(this.txtSubtotal);
             this.Controls.Add(this.sub_total_t);
             this.Name = "Invoice_Form";
-            this.Text = "Invoice total";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,7 +152,6 @@ namespace InvoiceTotal2
         private System.Windows.Forms.Label dis_percent_t;
         private System.Windows.Forms.Label total_t;
         private System.Windows.Forms.Label dis_amt_t;
-        private System.Windows.Forms.Button btnCalculator;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TextBox txtDiscountPercent;
         private System.Windows.Forms.TextBox txtDiscountAmount;

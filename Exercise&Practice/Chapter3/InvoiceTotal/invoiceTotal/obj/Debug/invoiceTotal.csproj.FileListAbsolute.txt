@@ -1,0 +1,11 @@
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\bin\Debug\invoiceTotal.exe.config
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\bin\Debug\invoiceTotal.exe
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\bin\Debug\invoiceTotal.pdb
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.AssemblyReference.cache
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.SuggestedBindingRedirects.cache
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.Properties.Resources.resources
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.GenerateResource.cache
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.CoreCompileInputs.cache
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.exe
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.pdb
+C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.frmInvoiceTotal.resources

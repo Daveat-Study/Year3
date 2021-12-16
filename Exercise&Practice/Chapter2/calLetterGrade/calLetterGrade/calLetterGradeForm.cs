@@ -20,12 +20,12 @@ namespace calLetterGrade
         private void button2_Click(object sender, EventArgs e)
         {
 
-            Console.WriteLine("exit");
+            System.Console.WriteLine("exit");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void calLetter_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Click calculate");
+            System.Console.WriteLine("Click calculate");
         }
     }
 }

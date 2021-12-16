@@ -1,0 +1,16 @@
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\bin\Debug\netcoreapp3.1\InvoiceTotal2.exe
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\bin\Debug\netcoreapp3.1\InvoiceTotal2.deps.json
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\bin\Debug\netcoreapp3.1\InvoiceTotal2.runtimeconfig.json
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\bin\Debug\netcoreapp3.1\InvoiceTotal2.runtimeconfig.dev.json
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\bin\Debug\netcoreapp3.1\InvoiceTotal2.dll
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\bin\Debug\netcoreapp3.1\InvoiceTotal2.pdb
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.csproj.AssemblyReference.cache
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.csproj.GenerateResource.cache
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.AssemblyInfoInputs.cache
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.AssemblyInfo.cs
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.csproj.CoreCompileInputs.cache
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.dll
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.pdb
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.genruntimeconfig.cache
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal.Invoice_Form.resources

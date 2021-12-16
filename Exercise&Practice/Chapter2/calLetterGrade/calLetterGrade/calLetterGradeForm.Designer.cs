@@ -69,7 +69,7 @@ namespace calLetterGrade
             this.calLetterGrade.TabStop = false;
             this.calLetterGrade.Text = "&Calculate Letter Grade";
             this.calLetterGrade.UseVisualStyleBackColor = true;
-            this.calLetterGrade.Click += new System.EventHandler(this.button1_Click);
+            this.calLetterGrade.Click += new System.EventHandler(this.calLetter_Click);
             // 
             // exit
             // 
