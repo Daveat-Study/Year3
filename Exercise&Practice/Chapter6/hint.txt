@@ -1,3 +1,2 @@
 1. Remove Future value in event replace with method future value by call.
 2. Choose Event TextChange (monthyly Investment, Yearly Interest Rate, Number of years) 
-3. 

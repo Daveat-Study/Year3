@@ -19,3 +19,14 @@ Z:\Exercise&Practice\Chapter3\studentPopulation\studentPopulation\obj\Debug\stud
 Z:\Exercise&Practice\Chapter3\studentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.CoreCompileInputs.cache
 Z:\Exercise&Practice\Chapter3\studentPopulation\studentPopulation\obj\Debug\studentPopulation.exe
 Z:\Exercise&Practice\Chapter3\studentPopulation\studentPopulation\obj\Debug\studentPopulation.pdb
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.AssemblyReference.cache
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.SuggestedBindingRedirects.cache
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.Form1.resources
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.Properties.Resources.resources
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.GenerateResource.cache
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.csproj.CoreCompileInputs.cache
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.exe
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\obj\Debug\studentPopulation.pdb
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\bin\Debug\studentPopulation.exe.config
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\bin\Debug\studentPopulation.exe
+Z:\Exercise&Practice\Chapter5\StudentPopulation\studentPopulation\bin\Debug\studentPopulation.pdb

@@ -19,12 +19,14 @@ namespace studentPopulation
 
         private void btnProStudentPop_Click(object sender, EventArgs e)
         {
-            decimal convert = Convert.ToDecimal(txtNumberOfStudentsToday.Text);
+            double convert = Convert.ToDouble(txtNumberOfStudentsToday.Text);
+            double growthRate = Convert.ToDouble(txtAnlGrowthRate.Text);
+            int years = Convert.ToInt32(txtNumOfYear.Text);
             //convert *= 2m;
-            decimal popGrwoth = (convert * (Math.Exp(txtAnlGrowthRate)))
+            double r = Math.Pow((1 + (growthRate/100)), years);
+            double popGrowth = convert * r;
 
-            decimal result = (convert * Convert.ToDecimal(txtAnlGrowthRate.Text)) / Convert.ToDecimal(txtNumOfYear.Text);
-            txtNumberOfProjectedStudents.Text = result.ToString();
+            txtNumberOfProjectedStudents.Text = popGrowth.ToString("n2");
         }
 
         private void btnExit_Click(object sender, EventArgs e)

@@ -12,7 +12,6 @@ namespace FutureValue
 {
     public partial class frmFutureValue : Form
     {
-        decimal futureValue = 0m;
         public frmFutureValue()
         {
             InitializeComponent();
@@ -20,14 +19,27 @@ namespace FutureValue
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            decimal monthlyInterestRate = Convert.ToDecimal(txtYearlyInterestRate.Text);
-            decimal monthlyPayment = Convert.ToDecimal(txtMonthlyInvestment.Text);
-            for (int i = 0; i< 12; i++)
+            decimal yearlyInterestRate = Convert.ToDecimal(txtYearlyInterestRate.Text);
+            decimal monthlyInvestment = Convert.ToDecimal(txtMonthlyInvestment.Text);
+            int years = Convert.ToInt32(txtNumberOfYears.Text);
+            int month = years * 12;
+
+            decimal monthyInterestRate = yearlyInterestRate / 12 / monthlyInvestment;
+            decimal totalRate = 0m;
+
+            decimal futureValue = 0m;
+            for (int i = 0; i< month; i++)
             {
-                futureValue = (futureValue + monthlyPayment) * (1 + monthlyInterestRate);
+                totalRate = (futureValue + monthlyInvestment) * monthyInterestRate;
+                futureValue = totalRate + (futureValue + monthlyInvestment);
             }
 
             txtFutureValue.Text = futureValue.ToString("c2");
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

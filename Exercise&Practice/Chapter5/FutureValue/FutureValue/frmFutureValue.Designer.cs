@@ -112,6 +112,7 @@
             // 
             this.txtFutureValue.Location = new System.Drawing.Point(246, 178);
             this.txtFutureValue.Name = "txtFutureValue";
+            this.txtFutureValue.ReadOnly = true;
             this.txtFutureValue.Size = new System.Drawing.Size(100, 20);
             this.txtFutureValue.TabIndex = 3;
             // 
@@ -124,6 +125,7 @@
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmFutureValue
             // 
