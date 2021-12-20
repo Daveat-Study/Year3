@@ -56,6 +56,7 @@ namespace studentPopulation
             this.txtNumberOfStudentsToday.Name = "txtNumberOfStudentsToday";
             this.txtNumberOfStudentsToday.Size = new System.Drawing.Size(100, 20);
             this.txtNumberOfStudentsToday.TabIndex = 1;
+            this.txtNumberOfStudentsToday.TextChanged += new System.EventHandler(this.txtNumberOfStudentsToday_TextChanged);
             // 
             // btnProStudentPop
             // 

@@ -21,6 +21,7 @@ namespace studentPopulation
         {
             decimal convert = Convert.ToDecimal(txtNumberOfStudentsToday.Text);
             //convert *= 2m;
+            decimal popGrwoth = (convert * (Math.Exp(txtAnlGrowthRate)))
 
             decimal result = (convert * Convert.ToDecimal(txtAnlGrowthRate.Text)) / Convert.ToDecimal(txtNumOfYear.Text);
             txtNumberOfProjectedStudents.Text = result.ToString();
@@ -29,6 +30,11 @@ namespace studentPopulation
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtNumberOfStudentsToday_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

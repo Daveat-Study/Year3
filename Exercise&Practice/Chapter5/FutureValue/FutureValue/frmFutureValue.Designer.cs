@@ -65,6 +65,7 @@
             this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // lblYearlyInterestRate
             // 
@@ -89,9 +90,9 @@
             this.lblFutureValue.AutoSize = true;
             this.lblFutureValue.Location = new System.Drawing.Point(52, 185);
             this.lblFutureValue.Name = "lblFutureValue";
-            this.lblFutureValue.Size = new System.Drawing.Size(35, 13);
+            this.lblFutureValue.Size = new System.Drawing.Size(67, 13);
             this.lblFutureValue.TabIndex = 5;
-            this.lblFutureValue.Text = "label4";
+            this.lblFutureValue.Text = "Future Value";
             // 
             // txtYearlyInterestRate
             // 
@@ -112,7 +113,7 @@
             this.txtFutureValue.Location = new System.Drawing.Point(246, 178);
             this.txtFutureValue.Name = "txtFutureValue";
             this.txtFutureValue.Size = new System.Drawing.Size(100, 20);
-            this.txtFutureValue.TabIndex = 8;
+            this.txtFutureValue.TabIndex = 3;
             // 
             // btnExit
             // 
