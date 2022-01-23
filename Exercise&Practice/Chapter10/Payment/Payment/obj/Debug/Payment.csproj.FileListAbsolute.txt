@@ -1,0 +1,12 @@
+C:\Users\corndaveat\Desktop\Payment\Payment\bin\Debug\Payment.exe.config
+C:\Users\corndaveat\Desktop\Payment\Payment\bin\Debug\Payment.exe
+C:\Users\corndaveat\Desktop\Payment\Payment\bin\Debug\Payment.pdb
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.csproj.AssemblyReference.cache
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.csproj.SuggestedBindingRedirects.cache
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.frmPayment.resources
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.Properties.Resources.resources
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.csproj.GenerateResource.cache
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.csproj.CoreCompileInputs.cache
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.exe
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.pdb
+C:\Users\corndaveat\Desktop\Payment\Payment\obj\Debug\Payment.frmCustomer.resources
