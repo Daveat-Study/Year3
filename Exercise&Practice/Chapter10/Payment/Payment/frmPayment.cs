@@ -12,10 +12,14 @@ namespace Payment
 {
     public partial class frmPayment : Form
     {
-        string[] cboNames;
         public frmPayment()
         {
             InitializeComponent();
+        }
+
+        private void frmPayment_Load(object sender, EventArgs e)
+        {
+            initPaymentData();
             initExpirationDate();
         }
 
@@ -24,13 +28,36 @@ namespace Payment
             this.Close();
         }
 
-        private void lstBxCeditCardType_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnOK_Click(object sender, EventArgs e)
         {
-
+            if (isValidateData())
+            {
+                this.saveData(); ;
+            }
         }
 
-        /* Additional method */
+        private void rdBtnCeditCard_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdoCreditCard.Checked)
+            {
+                enableControls();
+            }
+            else
+            {
+                disableComtrols();
+            }
+        }
 
+        /* Additional function */
+
+        private void initPaymentData()
+        {
+            lstCreditCardType.Items.Add("Visa");
+            lstCreditCardType.Items.Add("Mastercard");
+            lstCreditCardType.Items.Add("American Express");
+            lstCreditCardType.SelectedIndex = 0;
+
+        }
 
         private void initExpirationDate()
         {
@@ -43,68 +70,115 @@ namespace Payment
 
             foreach (string month in months)
             {
-                cmbBoxSelectMonth.Items.Add(month);
+                cboExpirationMonth.Items.Add(month);
             }
+            cboExpirationMonth.SelectedIndex = 0;
 
             int year = DateTime.Today.Year;
             int endYear = year + 8;
-            cmbBoxSelectMonth.Items.Add("Select a year...");
+            cboExpirationYear.Items.Add("Select a year...");
             while (year < endYear)
             {
-                cmbBoxSelectMonth.Items.Add(year);
+                cboExpirationYear.Items.Add(year);
                 year++;
             }
+            cboExpirationYear.SelectedIndex = 0;
         }
 
         private void clearLstBox()
         {
-            lstBxCeditCardType.Items.Clear();
-            lstBxCeditCardType.Items.Add("Visa");
-            lstBxCeditCardType.Items.Add("Mastercard");
-            lstBxCeditCardType.Items.Add("American Express");
-            lstBxCeditCardType.SelectedIndex = 0;;
+            lstCreditCardType.Items.Clear();
+            lstCreditCardType.Items.Add("Visa");
+            lstCreditCardType.Items.Add("Mastercard");
+            lstCreditCardType.Items.Add("American Express");
+            lstCreditCardType.SelectedIndex = 0;;
         }
 
         private void getComBoAndListBoxInfo()
         {
-            int expYearIndex = cmbBoxSelectYear.SelectedIndex;
-            string expYearText = cmbBoxSelectYear.Text;
-            int expYearValue = (int)cmbBoxSelectYear.SelectedItem;
-            String expMonthValue = cmbBoxSelectMonth.Items[1].ToString();
+            int expYearIndex = cboExpirationYear.SelectedIndex;
+            string expYearText = cboExpirationYear.Text;
+            int expYearValue = (int)cboExpirationYear.SelectedItem;
+            String expMonthValue = cboExpirationMonth.Items[1].ToString();
         }
 
-        private void comBoxName()
+        private bool isValidateData()
         {
-            string[] names = { "Doug Lowe", "Anne Boehm", "Ed Koop" };
-            foreach(string name in names)
+            if (rdoCreditCard.Checked)
             {
-                //cboName.Item
+                if (lstCreditCardType.SelectedIndex == -1)
+                {
+                    MessageBox.Show(
+                        "You must select a credit card type.",
+                        "Entry Error"
+                    );
+                    lstCreditCardType.Focus();
+                    return false;
+                }
+
+                if (txtCardNumber.Text == "")
+                {
+                    MessageBox.Show(
+                        "You must enter a credit card number.",
+                        "Entry Error"
+                    );
+                    txtCardNumber.Focus();
+                    return false;
+                }
+                if (cboExpirationMonth.SelectedIndex == 0)
+                {
+                    MessageBox.Show(
+                        "You must select a month.",
+                        "Entry Error"
+                    );
+                    cboExpirationMonth.Focus();
+                    return false;
+                }
+                if (cboExpirationYear.SelectedIndex == 0)
+                {
+                    MessageBox.Show(
+                        "You must select a year.",
+                        "Entry Error"
+                    );
+                    cboExpirationYear.Focus();
+                    return false;
+                }
             }
+            return true;
         }
 
-        private void rdBtnCeditCard_CheckedChanged(object sender, EventArgs e)
+        private void saveData()
         {
-            if (rdBtnCeditCard.Checked)
+            string msg = null;
+            if (rdoCreditCard.Checked == true)
             {
-                enableControls();
-            } else
-            {
-                disableComtrols();
+                msg += "Charge to credit card.\n\n";
+                msg += "Card type: " + lstCreditCardType.Text + "\n";
+                msg += "Card number:" + txtCardNumber.Text + "\n";
+                msg += "Expireation date: " + cboExpirationMonth.Text + "/" + cboExpirationYear.Text + "\n";
             }
+            else
+            {
+                msg += "Send bill to customer." + "\n\n";
+            }
+            msg += "Default billing: " + chkDefault.Checked;
+            this.Tag = msg;
+            this.DialogResult = DialogResult.OK;
         }
 
         private void enableControls()
         {
-
+            lstCreditCardType.Enabled = true;
+            txtCardNumber.Enabled = true;
+            cboExpirationMonth.Enabled = true;
+            cboExpirationYear.Enabled = true;
         }
         private void disableComtrols()
         {
-
-        }
-
-        private void rdBtnBillCustomer_CheckedChanged(object sender, EventArgs e)
-        {
-
+            lstCreditCardType.Enabled = false;
+            txtCardNumber.Enabled = false;
+            cboExpirationMonth.Enabled = false;
+            cboExpirationYear.Enabled = false;
         }
     }
 }

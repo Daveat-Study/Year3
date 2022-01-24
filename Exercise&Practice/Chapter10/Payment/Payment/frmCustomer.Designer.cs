@@ -29,22 +29,32 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Button btnSave;
-            this.cboCustomerName = new System.Windows.Forms.ComboBox();
+            this.cboNames = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSelectPayment = new System.Windows.Forms.Button();
-            this.lstPaymentMethod = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lblPayment = new System.Windows.Forms.Label();
             btnSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // cboCustomerName
+            // btnSave
             // 
-            this.cboCustomerName.FormattingEnabled = true;
-            this.cboCustomerName.Location = new System.Drawing.Point(166, 19);
-            this.cboCustomerName.Name = "cboCustomerName";
-            this.cboCustomerName.Size = new System.Drawing.Size(215, 21);
-            this.cboCustomerName.TabIndex = 0;
+            btnSave.Location = new System.Drawing.Point(169, 235);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new System.Drawing.Size(97, 29);
+            btnSave.TabIndex = 5;
+            btnSave.Text = "Save";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // cboNames
+            // 
+            this.cboNames.FormattingEnabled = true;
+            this.cboNames.Location = new System.Drawing.Point(166, 19);
+            this.cboNames.Name = "cboNames";
+            this.cboNames.Size = new System.Drawing.Size(215, 21);
+            this.cboNames.TabIndex = 0;
             // 
             // label1
             // 
@@ -65,14 +75,6 @@
             this.btnSelectPayment.UseVisualStyleBackColor = true;
             this.btnSelectPayment.Click += new System.EventHandler(this.btnSelectPayment_Click);
             // 
-            // lstPaymentMethod
-            // 
-            this.lstPaymentMethod.FormattingEnabled = true;
-            this.lstPaymentMethod.Location = new System.Drawing.Point(30, 99);
-            this.lstPaymentMethod.Name = "lstPaymentMethod";
-            this.lstPaymentMethod.Size = new System.Drawing.Size(236, 121);
-            this.lstPaymentMethod.TabIndex = 3;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -81,15 +83,6 @@
             this.label2.Size = new System.Drawing.Size(89, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Payment method:";
-            // 
-            // btnSave
-            // 
-            btnSave.Location = new System.Drawing.Point(169, 235);
-            btnSave.Name = "btnSave";
-            btnSave.Size = new System.Drawing.Size(97, 29);
-            btnSave.TabIndex = 5;
-            btnSave.Text = "Save";
-            btnSave.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
@@ -102,6 +95,14 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // lblPayment
+            // 
+            this.lblPayment.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblPayment.Location = new System.Drawing.Point(27, 99);
+            this.lblPayment.Name = "lblPayment";
+            this.lblPayment.Size = new System.Drawing.Size(239, 110);
+            this.lblPayment.TabIndex = 7;
+            // 
             // frmCustomer
             // 
             this.AcceptButton = btnSave;
@@ -109,16 +110,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(405, 296);
+            this.Controls.Add(this.lblPayment);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(btnSave);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.lstPaymentMethod);
             this.Controls.Add(this.btnSelectPayment);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.cboCustomerName);
+            this.Controls.Add(this.cboNames);
             this.Name = "frmCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmCustomer_FormClosing);
+            this.Load += new System.EventHandler(this.frmCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,11 +129,11 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cboCustomerName;
+        private System.Windows.Forms.ComboBox cboNames;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSelectPayment;
-        private System.Windows.Forms.ListBox lstPaymentMethod;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label lblPayment;
     }
 }

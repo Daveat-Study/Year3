@@ -28,35 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbBoxSelectMonth = new System.Windows.Forms.ComboBox();
+            this.cboExpirationMonth = new System.Windows.Forms.ComboBox();
             this.grpBilling = new System.Windows.Forms.GroupBox();
-            this.rdBtnBillCustomer = new System.Windows.Forms.RadioButton();
-            this.rdBtnCeditCard = new System.Windows.Forms.RadioButton();
+            this.rdoBillCustomer = new System.Windows.Forms.RadioButton();
+            this.rdoCreditCard = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.lstBxCeditCardType = new System.Windows.Forms.ListBox();
+            this.lstCreditCardType = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtBoxCardNumber = new System.Windows.Forms.TextBox();
+            this.txtCardNumber = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.cmbBoxSelectYear = new System.Windows.Forms.ComboBox();
-            this.chkBoxSetDefaultBillingMethod = new System.Windows.Forms.CheckBox();
+            this.cboExpirationYear = new System.Windows.Forms.ComboBox();
+            this.chkDefault = new System.Windows.Forms.CheckBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.grpBilling.SuspendLayout();
             this.SuspendLayout();
             // 
-            // cmbBoxSelectMonth
+            // cboExpirationMonth
             // 
-            this.cmbBoxSelectMonth.FormattingEnabled = true;
-            this.cmbBoxSelectMonth.Location = new System.Drawing.Point(133, 233);
-            this.cmbBoxSelectMonth.Name = "cmbBoxSelectMonth";
-            this.cmbBoxSelectMonth.Size = new System.Drawing.Size(149, 21);
-            this.cmbBoxSelectMonth.TabIndex = 2;
-            this.cmbBoxSelectMonth.Text = "Select a month";
+            this.cboExpirationMonth.FormattingEnabled = true;
+            this.cboExpirationMonth.Location = new System.Drawing.Point(133, 233);
+            this.cboExpirationMonth.Name = "cboExpirationMonth";
+            this.cboExpirationMonth.Size = new System.Drawing.Size(149, 21);
+            this.cboExpirationMonth.TabIndex = 2;
+            this.cboExpirationMonth.Text = "Select a month";
             // 
             // grpBilling
             // 
-            this.grpBilling.Controls.Add(this.rdBtnBillCustomer);
-            this.grpBilling.Controls.Add(this.rdBtnCeditCard);
+            this.grpBilling.Controls.Add(this.rdoBillCustomer);
+            this.grpBilling.Controls.Add(this.rdoCreditCard);
             this.grpBilling.Location = new System.Drawing.Point(27, 25);
             this.grpBilling.Name = "grpBilling";
             this.grpBilling.Size = new System.Drawing.Size(393, 70);
@@ -64,29 +64,28 @@
             this.grpBilling.TabStop = false;
             this.grpBilling.Text = "Billing";
             // 
-            // rdBtnBillCustomer
+            // rdoBillCustomer
             // 
-            this.rdBtnBillCustomer.AutoSize = true;
-            this.rdBtnBillCustomer.Location = new System.Drawing.Point(261, 29);
-            this.rdBtnBillCustomer.Name = "rdBtnBillCustomer";
-            this.rdBtnBillCustomer.Size = new System.Drawing.Size(84, 17);
-            this.rdBtnBillCustomer.TabIndex = 9;
-            this.rdBtnBillCustomer.TabStop = true;
-            this.rdBtnBillCustomer.Text = "Bill customer";
-            this.rdBtnBillCustomer.UseVisualStyleBackColor = true;
-            this.rdBtnBillCustomer.CheckedChanged += new System.EventHandler(this.rdBtnBillCustomer_CheckedChanged);
+            this.rdoBillCustomer.AutoSize = true;
+            this.rdoBillCustomer.Location = new System.Drawing.Point(261, 29);
+            this.rdoBillCustomer.Name = "rdoBillCustomer";
+            this.rdoBillCustomer.Size = new System.Drawing.Size(84, 17);
+            this.rdoBillCustomer.TabIndex = 9;
+            this.rdoBillCustomer.Text = "Bill customer";
+            this.rdoBillCustomer.UseVisualStyleBackColor = true;
             // 
-            // rdBtnCeditCard
+            // rdoCreditCard
             // 
-            this.rdBtnCeditCard.AutoSize = true;
-            this.rdBtnCeditCard.Location = new System.Drawing.Point(65, 29);
-            this.rdBtnCeditCard.Name = "rdBtnCeditCard";
-            this.rdBtnCeditCard.Size = new System.Drawing.Size(73, 17);
-            this.rdBtnCeditCard.TabIndex = 8;
-            this.rdBtnCeditCard.TabStop = true;
-            this.rdBtnCeditCard.Text = "Cedit card";
-            this.rdBtnCeditCard.UseVisualStyleBackColor = true;
-            this.rdBtnCeditCard.CheckedChanged += new System.EventHandler(this.rdBtnCeditCard_CheckedChanged);
+            this.rdoCreditCard.AutoSize = true;
+            this.rdoCreditCard.Checked = true;
+            this.rdoCreditCard.Location = new System.Drawing.Point(65, 29);
+            this.rdoCreditCard.Name = "rdoCreditCard";
+            this.rdoCreditCard.Size = new System.Drawing.Size(73, 17);
+            this.rdoCreditCard.TabIndex = 8;
+            this.rdoCreditCard.TabStop = true;
+            this.rdoCreditCard.Text = "Cedit card";
+            this.rdoCreditCard.UseVisualStyleBackColor = true;
+            this.rdoCreditCard.CheckedChanged += new System.EventHandler(this.rdBtnCeditCard_CheckedChanged);
             // 
             // label1
             // 
@@ -98,20 +97,15 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Credit card type:";
             // 
-            // lstBxCeditCardType
+            // lstCreditCardType
             // 
-            this.lstBxCeditCardType.FormattingEnabled = true;
-            this.lstBxCeditCardType.Items.AddRange(new object[] {
-            "American Express",
-            "Matercard",
-            "Visa"});
-            this.lstBxCeditCardType.Location = new System.Drawing.Point(133, 117);
-            this.lstBxCeditCardType.Name = "lstBxCeditCardType";
-            this.lstBxCeditCardType.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.lstBxCeditCardType.Size = new System.Drawing.Size(287, 56);
-            this.lstBxCeditCardType.Sorted = true;
-            this.lstBxCeditCardType.TabIndex = 0;
-            this.lstBxCeditCardType.SelectedIndexChanged += new System.EventHandler(this.lstBxCeditCardType_SelectedIndexChanged);
+            this.lstCreditCardType.FormattingEnabled = true;
+            this.lstCreditCardType.Location = new System.Drawing.Point(133, 117);
+            this.lstCreditCardType.Name = "lstCreditCardType";
+            this.lstCreditCardType.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.lstCreditCardType.Size = new System.Drawing.Size(287, 56);
+            this.lstCreditCardType.Sorted = true;
+            this.lstCreditCardType.TabIndex = 0;
             // 
             // label2
             // 
@@ -123,12 +117,12 @@
             this.label2.TabIndex = 12;
             this.label2.Text = "Card number:";
             // 
-            // txtBoxCardNumber
+            // txtCardNumber
             // 
-            this.txtBoxCardNumber.Location = new System.Drawing.Point(133, 193);
-            this.txtBoxCardNumber.Name = "txtBoxCardNumber";
-            this.txtBoxCardNumber.Size = new System.Drawing.Size(287, 20);
-            this.txtBoxCardNumber.TabIndex = 1;
+            this.txtCardNumber.Location = new System.Drawing.Point(133, 193);
+            this.txtCardNumber.Name = "txtCardNumber";
+            this.txtCardNumber.Size = new System.Drawing.Size(287, 20);
+            this.txtCardNumber.TabIndex = 1;
             // 
             // label3
             // 
@@ -140,24 +134,26 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Expiration date:";
             // 
-            // cmbBoxSelectYear
+            // cboExpirationYear
             // 
-            this.cmbBoxSelectYear.FormattingEnabled = true;
-            this.cmbBoxSelectYear.Location = new System.Drawing.Point(288, 233);
-            this.cmbBoxSelectYear.Name = "cmbBoxSelectYear";
-            this.cmbBoxSelectYear.Size = new System.Drawing.Size(132, 21);
-            this.cmbBoxSelectYear.TabIndex = 3;
-            this.cmbBoxSelectYear.Text = "Select a year";
+            this.cboExpirationYear.FormattingEnabled = true;
+            this.cboExpirationYear.Location = new System.Drawing.Point(288, 233);
+            this.cboExpirationYear.Name = "cboExpirationYear";
+            this.cboExpirationYear.Size = new System.Drawing.Size(132, 21);
+            this.cboExpirationYear.TabIndex = 3;
+            this.cboExpirationYear.Text = "Select a year";
             // 
-            // chkBoxSetDefaultBillingMethod
+            // chkDefault
             // 
-            this.chkBoxSetDefaultBillingMethod.AutoSize = true;
-            this.chkBoxSetDefaultBillingMethod.Location = new System.Drawing.Point(24, 289);
-            this.chkBoxSetDefaultBillingMethod.Name = "chkBoxSetDefaultBillingMethod";
-            this.chkBoxSetDefaultBillingMethod.Size = new System.Drawing.Size(158, 17);
-            this.chkBoxSetDefaultBillingMethod.TabIndex = 4;
-            this.chkBoxSetDefaultBillingMethod.Text = "Set as default billing method";
-            this.chkBoxSetDefaultBillingMethod.UseVisualStyleBackColor = true;
+            this.chkDefault.AutoSize = true;
+            this.chkDefault.Checked = true;
+            this.chkDefault.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkDefault.Location = new System.Drawing.Point(24, 289);
+            this.chkDefault.Name = "chkDefault";
+            this.chkDefault.Size = new System.Drawing.Size(158, 17);
+            this.chkDefault.TabIndex = 4;
+            this.chkDefault.Text = "Set as default billing method";
+            this.chkDefault.UseVisualStyleBackColor = true;
             // 
             // btnOK
             // 
@@ -167,6 +163,7 @@
             this.btnOK.TabIndex = 5;
             this.btnOK.Text = "&OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnCancel
             // 
@@ -190,21 +187,22 @@
             this.ControlBox = false;
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.chkBoxSetDefaultBillingMethod);
-            this.Controls.Add(this.cmbBoxSelectYear);
+            this.Controls.Add(this.chkDefault);
+            this.Controls.Add(this.cboExpirationYear);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtBoxCardNumber);
+            this.Controls.Add(this.txtCardNumber);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.lstBxCeditCardType);
+            this.Controls.Add(this.lstCreditCardType);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.grpBilling);
-            this.Controls.Add(this.cmbBoxSelectMonth);
+            this.Controls.Add(this.cboExpirationMonth);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmPayment";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payment";
+            this.Load += new System.EventHandler(this.frmPayment_Load);
             this.grpBilling.ResumeLayout(false);
             this.grpBilling.PerformLayout();
             this.ResumeLayout(false);
@@ -214,17 +212,17 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cmbBoxSelectMonth;
+        private System.Windows.Forms.ComboBox cboExpirationMonth;
         private System.Windows.Forms.GroupBox grpBilling;
-        private System.Windows.Forms.RadioButton rdBtnBillCustomer;
-        private System.Windows.Forms.RadioButton rdBtnCeditCard;
+        private System.Windows.Forms.RadioButton rdoBillCustomer;
+        private System.Windows.Forms.RadioButton rdoCreditCard;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox lstBxCeditCardType;
+        private System.Windows.Forms.ListBox lstCreditCardType;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtBoxCardNumber;
+        private System.Windows.Forms.TextBox txtCardNumber;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmbBoxSelectYear;
-        private System.Windows.Forms.CheckBox chkBoxSetDefaultBillingMethod;
+        private System.Windows.Forms.ComboBox cboExpirationYear;
+        private System.Windows.Forms.CheckBox chkDefault;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Button btnCancel;
     }
