@@ -9,3 +9,14 @@ C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csp
 C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.exe
 C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.pdb
 C:\Users\corndaveat\Desktop\invoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.frmInvoiceTotal.resources
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\bin\Debug\invoiceTotal.exe.config
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\bin\Debug\invoiceTotal.exe
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\bin\Debug\invoiceTotal.pdb
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.AssemblyReference.cache
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.SuggestedBindingRedirects.cache
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.frmInvoiceTotal.resources
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.Properties.Resources.resources
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.GenerateResource.cache
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.csproj.CoreCompileInputs.cache
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.exe
+Z:\Exercise&Practice\Chapter3\InvoiceTotal\invoiceTotal\obj\Debug\invoiceTotal.pdb

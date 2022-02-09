@@ -13,4 +13,4 @@ Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.
 Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.dll
 Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.pdb
 Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal2.genruntimeconfig.cache
-Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal.Invoice_Form.resources
+Z:\Exercise&Practice\Chapter2\InvoiceTotal2\InvoiceTotal2\obj\Debug\netcoreapp3.1\InvoiceTotal.frmInvoiceTotal.resources

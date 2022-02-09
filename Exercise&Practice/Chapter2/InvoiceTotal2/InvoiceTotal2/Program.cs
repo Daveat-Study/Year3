@@ -17,7 +17,7 @@ namespace InvoiceTotal
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Invoice_Form());
+            Application.Run(new frmInvoiceTotal());
         }
     }
 }

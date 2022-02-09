@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1cR+5AFRz6vj73aUsz2hn32i8C3m8gUeKzqyUhz2vYRHkg//sLI8rv8eVK4XOQSuCPx87TWn60lRWJhgthYtOQ==",
+  "dgSpecHash": "LSY+EfWgyegUfBqWqlH0k9b0dlGqYX1inDoaXglqD5UjV81EndFnRNLcf5juTBLiACsvpiOFSTAN4skq2uhz6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daveat\\Desktop\\InvoiceTotal2\\InvoiceTotal2\\InvoiceTotal2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "Z:\\Exercise&Practice\\Chapter2\\InvoiceTotal\\InvoiceTotal2\\InvoiceTotal2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\corndaveat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\corndaveat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\corndaveat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\corndaveat\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

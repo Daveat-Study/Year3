@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InvoiceTotal
 {
-    public partial class Invoice_Form : Form
+    public partial class frmInvoiceTotal : Form
     {
-        public Invoice_Form()
+        public frmInvoiceTotal()
         {
             InitializeComponent();
         }
