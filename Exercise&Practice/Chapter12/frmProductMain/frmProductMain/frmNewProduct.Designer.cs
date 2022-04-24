@@ -31,9 +31,9 @@
             this.lblCode = new System.Windows.Forms.Label();
             this.lblDes = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
-            this.txtBoxCode = new System.Windows.Forms.TextBox();
-            this.txtBoxDes = new System.Windows.Forms.TextBox();
-            this.txtBoxPrice = new System.Windows.Forms.TextBox();
+            this.txtCode = new System.Windows.Forms.TextBox();
+            this.txtDescription = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -65,26 +65,26 @@
             this.lblPrice.TabIndex = 2;
             this.lblPrice.Text = "Price:";
             // 
-            // txtBoxCode
+            // txtCode
             // 
-            this.txtBoxCode.Location = new System.Drawing.Point(159, 34);
-            this.txtBoxCode.Name = "txtBoxCode";
-            this.txtBoxCode.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxCode.TabIndex = 3;
+            this.txtCode.Location = new System.Drawing.Point(159, 34);
+            this.txtCode.Name = "txtCode";
+            this.txtCode.Size = new System.Drawing.Size(100, 20);
+            this.txtCode.TabIndex = 3;
             // 
-            // txtBoxDes
+            // txtDescription
             // 
-            this.txtBoxDes.Location = new System.Drawing.Point(159, 71);
-            this.txtBoxDes.Name = "txtBoxDes";
-            this.txtBoxDes.Size = new System.Drawing.Size(196, 20);
-            this.txtBoxDes.TabIndex = 4;
+            this.txtDescription.Location = new System.Drawing.Point(159, 71);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(196, 20);
+            this.txtDescription.TabIndex = 4;
             // 
-            // txtBoxPrice
+            // txtPrice
             // 
-            this.txtBoxPrice.Location = new System.Drawing.Point(159, 104);
-            this.txtBoxPrice.Name = "txtBoxPrice";
-            this.txtBoxPrice.Size = new System.Drawing.Size(100, 20);
-            this.txtBoxPrice.TabIndex = 5;
+            this.txtPrice.Location = new System.Drawing.Point(159, 104);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(100, 20);
+            this.txtPrice.TabIndex = 5;
             // 
             // btnSave
             // 
@@ -94,6 +94,7 @@
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -112,9 +113,9 @@
             this.ClientSize = new System.Drawing.Size(476, 194);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.txtBoxPrice);
-            this.Controls.Add(this.txtBoxDes);
-            this.Controls.Add(this.txtBoxCode);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtDescription);
+            this.Controls.Add(this.txtCode);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblDes);
             this.Controls.Add(this.lblCode);
@@ -130,9 +131,9 @@
         private System.Windows.Forms.Label lblCode;
         private System.Windows.Forms.Label lblDes;
         private System.Windows.Forms.Label lblPrice;
-        private System.Windows.Forms.TextBox txtBoxCode;
-        private System.Windows.Forms.TextBox txtBoxDes;
-        private System.Windows.Forms.TextBox txtBoxPrice;
+        private System.Windows.Forms.TextBox txtCode;
+        private System.Windows.Forms.TextBox txtDescription;
+        private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
     }

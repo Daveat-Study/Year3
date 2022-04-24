@@ -13,6 +13,13 @@ namespace frmProductMain
         private decimal price;
 
         public Product() { }
+        public Product(string code)
+        {
+            Product p = ProductsDB.GetProduct(code);
+            this.code = p.code;
+            this.description = p.description;
+            this.price = p.price;
+        }
         public Product(string code, string des, decimal price)
         {
             this.code = code;

@@ -31,7 +31,7 @@
             this.btnAddProduct = new System.Windows.Forms.Button();
             this.btnDeleteProduct = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lstProducts = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnAddProduct
@@ -42,6 +42,7 @@
             this.btnAddProduct.TabIndex = 0;
             this.btnAddProduct.Text = "Add Product";
             this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // btnDeleteProduct
             // 
@@ -51,6 +52,7 @@
             this.btnDeleteProduct.TabIndex = 1;
             this.btnDeleteProduct.Text = "Delete Product";
             this.btnDeleteProduct.UseVisualStyleBackColor = true;
+            this.btnDeleteProduct.Click += new System.EventHandler(this.btnDeleteProduct_Click);
             // 
             // btnEdit
             // 
@@ -62,25 +64,27 @@
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
-            // listBox1
+            // lstProducts
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(378, 238);
-            this.listBox1.TabIndex = 3;
+            this.lstProducts.FormattingEnabled = true;
+            this.lstProducts.Location = new System.Drawing.Point(12, 12);
+            this.lstProducts.Name = "lstProducts";
+            this.lstProducts.Size = new System.Drawing.Size(378, 238);
+            this.lstProducts.TabIndex = 3;
+            this.lstProducts.SelectedIndexChanged += new System.EventHandler(this.lstProducts_SelectedIndexChanged);
             // 
             // frmProductMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(550, 262);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lstProducts);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnDeleteProduct);
             this.Controls.Add(this.btnAddProduct);
             this.Name = "frmProductMain";
             this.Text = "Product Maintenance";
+            this.Load += new System.EventHandler(this.frmProductMain_Load);
             this.ResumeLayout(false);
 
         }
@@ -90,7 +94,7 @@
         private System.Windows.Forms.Button btnAddProduct;
         private System.Windows.Forms.Button btnDeleteProduct;
         private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstProducts;
     }
 }
 
