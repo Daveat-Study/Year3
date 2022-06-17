@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class Test1 {
 
-	static JFrame f = new JFrame("Task 2 Semester 2");
+	static JFrame f = new JFrame("Midterm");
 	static JPasswordField tf1 = new JPasswordField();
 	static JTextField tf2 = new JTextField();
 	static JButton btn = new JButton("Gernerate"), guessBtn = new JButton("Guess");
@@ -42,6 +42,7 @@ public class Test1 {
 			// Random Number
 			public void actionPerformed(ActionEvent e){
 				String str = findNumber(tf2.getText(), String.valueOf(tf1.getPassword()));
+				System.out.println("Message"+ str);
 				if (str != "") {
 
 					msg.setText("WRONG");
@@ -58,13 +59,14 @@ public class Test1 {
 
 				
 				// For Label
-				msg.setBounds(50, 150, 100, 30);
-				msg2.setBounds(100, 150, 100, 30);
-				
-				f.add(msg);
-				f.add(msg2);
+				msg.setBounds(50, 150, 200, 30);
+				msg2.setBounds(110, 150, 200, 30);
 	        }
 		});
+		
+		f.add(msg);
+		f.add(msg2);
+		
 		f.add(btn);
 		f.add(guessBtn);
 
